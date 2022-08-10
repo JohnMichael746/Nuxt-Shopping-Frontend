@@ -1,0 +1,156 @@
+﻿/*====================  ====================*/
+.brand-filter{ background-color: #fff; box-shadow: 0 0 2px rgba(0,0,0,0.1); border-bottom: 1px solid #f2f2f2; padding: 10px 10px 0}
+.brand-filter dl{ display: block; overflow: hidden; _zoom:1; margin: 5px 0}
+.brand-filter dl dt{ float: left; font-size: 14px; line-height: 25px}
+.brand-filter dl dd a{height:25px;line-height:25px;padding:0 8px;display:block;float:left;margin-right:7px;margin-bottom:10PX;background:#f5f5f5;color:#666;text-decoration:none;border-radius:3px}
+.brand-filter dl dd a:hover, .brand-filter dl dd a.on{background:#ff2069;color:#fff}
+
+/*==================== 产品 ====================*/
+.pic{text-align:center; position:relative; display:table-cell; vertical-align:middle}
+.pic .subpic{*position:absolute; top:50%; left:50%}
+.pic .subpic img{*position:relative; top:-50%; left:-50%}
+
+.product{ box-shadow: 0 0 2px rgba(0,0,0,0.1)}
+.product-item{ padding-bottom: 10px; height: 190px; border-bottom: 1px solid #f2f2f2; position: relative; background-color:#fff}
+.product-item .title{ height: 50px; top: 20px;line-height: 25px; position: absolute; left: 220px; color: #444; overflow: hidden; font-weight: 500; font-size: 17px; padding-right: 10px}
+.product.detail .detail-info .title span,.product-item .title span{color:#d42f2f;font-weight: bold;padding-right: 5px}
+.product.detail .detail-info .title span i,.product-item .title span i{    text-decoration: line-through; font-style: normal;}
+.product-item .info{ position: absolute; left: 220px; top: 75px; color: #999; line-height: 20px; height: 80px; overflow: hidden; font-size: 13px; padding-right: 20px}
+.product-item .pic{width: 200px;height: 200px}
+.product-item .pic .subpic img{ max-width: 180px; max-height: 180px; vertical-align: top}
+.product-item .tobuywordBtn{ background-color: #ff2069; font-family: Arial; font-size: 14px; color: #fff; text-decoration: none; width: 95px; height: 30px; text-align: center; line-height: 30px; display: inline-block; position: absolute; bottom: 15px; right: 20px; border-radius: 3px; font-weight: 600}
+.product-item .tobuywordBtn:hover{ background-color: #e91e6f}
+.product-item .rightmall{ position: absolute; bottom: 25px; right: 125px; color: #48a753}
+.product-item .rightmall a{ color: #323232; font-weight: 500; font-family: Arial}
+.product-item .upvote{position: absolute;left:220px;bottom:60px;cursor: pointer}
+.product-item .upvote .upvoteNum{position: absolute;left:45px;top:0px;line-height: 55px ;color: #aaa}
+.product-item .upvote .upvoteNum:hover{color:#eb7350}
+.detail-upvote{position: absolute;left:120px;top:375px;cursor: pointer}
+.detail-upvote .upvoteNum{position: absolute;left:45px;top:0px;line-height: 55px ;color: #aaa}
+.detail-upvote .upvoteNum:hover{color:#eb7350}
+.product-item .goodSource{position: absolute;left:290px;bottom:18px;font-size:12px;line-height: 25px ;color: #aaa}
+
+
+.rank .hd{ height: 25px; line-height: 25px;padding: 8px; background-color: #fff; border-bottom: 1px solid #dedede}
+.rank .hd h3{ font-size: 15px; float: left; line-height: 15px; margin-top: 6px; font-weight: 600}
+.rank .hd h3:before{ content: " "; border-left: 3px solid #ff2069; margin-top: 3px; margin-right: 8px}
+.rank .product-item{ padding: 5px; height: 70px}
+.rank .product-item .title{ height: 50px; top: 10px;line-height: 25px;left: 80px; font-size: 15px}
+.rank .product-item .pic{width: 70px;height: 70px}
+.rank .product-item .pic .subpic img{ max-width: 60px; max-height: 60px; vertical-align: top}
+
+
+.crumbs{ color:#999; font-size:12px; height:30px; line-height:30px; border-bottom:1px solid #f2f2f2; padding-left: 10px}
+.crumbsCate{ display:inline}
+.crumbs .arrow,span.arrow{ font-family:"SimSun";padding:0 4px}
+.crumbs a{ color:#444; font-family: Arial}
+.crumbs a:hover{ color:#ff2069}
+
+
+.product.detail .detail-info{ min-height: 400px; background-color: #fff; position: relative; padding: 10px 10px 10px 320px}
+.product.detail .detail-info .title{ line-height: 25px; color: #444; overflow: hidden; font-weight: 500; font-size: 17px; margin-bottom: 20px}
+.product.detail .detail-info p{ color: #999; line-height: 20px; overflow: hidden; font-size: 13px; margin: 10px 0}
+.product.detail .picInfo{ position: absolute; left: 0; top: 0; text-align: center; font-size: 14px}
+.product.detail .picInfo .pic{width: 300px;height: 300px}
+.product.detail .picInfo .pic .subpic img{ max-width: 280px; max-height: 280px; vertical-align: top}
+.product.detail .picInfo .tobuywordBtn{ background-color: #ff2069; font-family: Arial; font-size: 16px; color: #fff; text-decoration: none; width: 135px; height: 40px; text-align: center; line-height: 40px; display: inline-block; border-radius: 3px; margin-top: 10px}
+.product.detail .picInfo .tobuywordBtn:hover{ background-color: #e91e6f}
+.product.detail .picInfo .rightmall{ margin-top: 15px}
+.product.detail .picInfo .rightmall a{ color: #ff2069; font-size: 14px; font-family: Arial}
+
+.feednotify{background: #e7f6e7;display: block;text-align: center;box-shadow: 0 1px 2px rgba(0,0,0,0.1);  cursor: pointer;}
+.feednotify span:nth-child(2){line-height: 350%;  color: #5db95b;  font-size: 13px;}
+.feednotify span:nth-child(1){ line-height: 350%;  color: #ff998a;  font-size: 13px;}
+
+.search_no{background: #fff}
+.search_no_box{  background: url(../images/no_items.jpg) no-repeat center 90px;  padding: 380px 0 130px;  text-align: center;  font-size: 16px;  }
+
+.appendix{background: #fff;min-height: 600px;padding: 20px 30px}
+.appendix h1{font-size: 20px;padding-bottom: 20px}
+.appendix p{font-size: 14px;line-height: 20px;margin-top: 10px;}
+.appendix .items{padding: 10px ;}
+.appendix .items span{font-size: 14px ;height: 22px;  line-height: 22px;font-weight: bold;width: 160px;display: block;}
+.appendix .items input{outline-style: none;  -webkit-appearance: none;width: 388px;  height: 22px;  line-height: 22px;  padding: 5px;  border: 1px solid #d2d2d2;  font: 12px "Arial";  color: #aaa;}
+.appendix .items textarea{outline-style: none;  -webkit-appearance: none;width: 388px;  height: 174px;  border: 1px solid #d3d3d3;  padding: 5px;  color: #aaa;    resize: none;font: 12px "Arial";vertical-align: middle;}
+.appendix .items .submit{width: 100px;height: 35px;background: #ff2069;text-align: center;line-height: 35px;margin-left: 144px;color: #fff;border-radius: 2px;cursor: pointer}
+.appendix .items .submit:hover{background: #e91e6f}
+
+/*推荐商品*/
+.recommending-commodities{margin-top: 10px}
+.recommending-commodities .item{width: 25%;background: #ffffff;float: left}
+.recommending-commodities .item a{width: 92%;margin: 4%;display: block;border: 1px solid #ffffff;cursor: pointer}
+.recommending-commodities .item a:hover{box-shadow:0 0 6px #ddd;}
+
+.recommending-commodities .item .pack{width: 92%;margin: 4%;display: block}
+.recommending-commodities .item .subpic{ width: 100%; }
+.recommending-commodities .item .subpic img{width:100%;background-size:cover;height: 160px}
+.recommending-commodities .item p{margin-top:10px;font-size:13px;height: 34px;line-height: 17px;display: -webkit-box;  -webkit-box-orient: vertical;  -webkit-line-clamp: 2;overflow: hidden;color: #999999}
+
+/* 优惠码的快速点击效果 */
+.popular-stores .store{background: #fff;padding: 10px;height: 220px}
+.popular-stores .store .item{ width: 24.5%;height:100px;border: 1px solid #ebebeb;border-width: 0 1px 1px 0;float:left}
+.popular-stores .store .bottom{border-bottom-width: 0px}
+.popular-stores .store .item a{text-align: center;display: block;height: 100%;padding: 15px 0}
+.popular-stores .store .item img{max-width: 90%;max-height: 90%;vertical-align: middle;}
+.popular-stores .store .item:nth-child(4n){border-right-width: 0}
+
+/* 优惠码列表 */
+.coupons-items .coupons{background: #fff;display: inline-block;width:100%}
+.coupons-items .coupons .item{padding: 12px 10px;border-bottom: 1px solid #ebebeb;}
+.coupons-items .coupons .item .pic{  width: 160px;float: left;}
+.coupons-items .coupons .item .pic a{display: table-cell;vertical-align: middle;width: 145px;height: 100px;text-align: center;}
+.coupons-items .coupons .item .pic img{width: 120px; height: 60px;}
+.coupons-items .coupons .item table{width: 358px;float: left;}
+.coupons-items .coupons .item table td{ font-size: 13px;line-height: 24px;}
+.coupons-items .coupons .item table .coupons-left{text-align: left; width: 100px;vertical-align: top;}
+.coupons-items .coupons .item table .code{    color: #333;font-size: 13px;font-weight: bold;}
+.coupons-items .coupons .item table td a.cont {font-size: 17px;line-height: 24px;color: #003399;}
+.coupons-items .coupons .item .get-deal{width: 110px;float: right;padding: 25px 0 0 0px; text-align: center;color: #999;}
+.coupons-items .coupons .item .get-deal a{color: #fff;display: block;width: 95px;height: 30px;line-height: 30px;text-align: center;font-size: 15px;border: 0;border-radius: 2px;background: #ff2069}
+.coupons-items .coupons .item .get-deal a:hover{background-color: #e91e6f;}
+
+.load{width:100%;height: 40px;background-color: #fff;border-bottom: 1px solid #f2f2f2;margin: 0 auto}
+.loading{width: 80px;height: 30px;  margin: 0 auto;}
+.loading span{display: inline-block;width: 8px;height: 100%;border-radius: 4px;background: #fd7da8;-webkit-animation: load 1.04s ease infinite;}
+@-webkit-keyframes load{
+    0%,100%{
+        height: 15px;
+        margin-top: 20px;
+        background: #fd7da8;
+    }
+    50%{
+        height: 30px;
+        margin-top: 5px;
+        background: #ff2069;
+    }
+}
+.loading span:nth-child(2){-webkit-animation-delay:0.13s;}
+.loading span:nth-child(3){-webkit-animation-delay:0.26s;}
+.loading span:nth-child(4){-webkit-animation-delay:0.39s;}
+.loading span:nth-child(5){-webkit-animation-delay:0.52s;}
+
+/*首页top商品*/
+.banner-hot{width:90%; max-width:1110px; min-width:960px;display: block;margin:0px auto;}
+.banner-hot .panel{margin-top:0px;}
+.banner-hot .item{width: 20%;background: #f1f1f1;float: left}
+.banner-hot .item a{position:relative;width: 92%;margin: 4%;display: block;border: 1px solid #f1f1f1;cursor: pointer;background: #fff;}
+.banner-hot .item a:hover{box-shadow:0 0 6px #ddd;}
+
+.banner-hot .item .pack{width: 92%;margin: 4%;display: block}
+.banner-hot .item .subpic{ width: 100%;height:0px;padding-bottom:100%;overflow: hidden; }
+.banner-hot .item .subpic img{width:100%;background-size:cover;height: auto;}
+.banner-hot .item p{visibility:visible;	padding:4px 4% 3px 4%;width:92%;font-size:12px;height: 34px;line-height: 17px;position:absolute;bottom:0px;display: -webkit-box;  -webkit-box-orient: vertical;  -webkit-line-clamp: 2;overflow: hidden;color: #fff;background:#000;opacity:.7;filter:alpha(opacity=70);}
+.banner-hot .item:hover p{visibility: visible;}
+
+/* 优惠码的快速点击效果 */
+.right-stores .store{width:100%;background:#fff;}
+.right-stores .store .item{ width: 50%;float:left;}
+.right-stores .store .item a{text-align: center;display: block;height: 70px;border-right:1px solid #ebebeb;border-bottom:1px solid #ebebeb;}
+.right-stores .store .item img{max-width: 90%;max-height: 90%;vertical-align: middle;}
+.right-stores .store .item:nth-child(2n) a{border-right:none;}
+
+
+
+
+
+

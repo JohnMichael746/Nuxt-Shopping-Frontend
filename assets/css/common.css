@@ -1,0 +1,82 @@
+html,body{ min-width: 960px; margin: 0 auto; background-color: #f1f1f1}
+
+/*清除浮动*/
+.clearfix:before,.clearfix:after{content:".";display:block;height:0;font-size:0;visibility:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+.fl { float:left}
+.fr { float:right}
+
+/*==================== 头部导航 ====================*/
+.headBar{ background-color: #fff}
+.headBar .inner{ width:100%; min-width:960px; max-width:1110px; height:80px; margin:0 auto; position:relative; z-index:500}
+.headBar .logo{ background:url(); float:left; width:150px; background-size:100%; margin-top:10px; font-size: 4em; color: #444; font-style: italic}
+.headBar .logo img{width:100%;height:auto;}
+.headBar .search{ width:520px; position:absolute; top:25px; left:50%; margin-left:-240px}
+.headBar .search-box{ height:30px; position:relative}
+.headBar .search-txt{ float:left; border:2px solid #ff2069; width:437px; line-height:28px; height:28px; margin:0; padding:0 0 0 8px}
+.headBar .search-btn{ float:left; width:70px; height:32px; background:#ff2069 url(../images/search_btn.png) no-repeat center;cursor:pointer}
+.headBar .search-btn2{ float:left; width:50px; height:34px; background:#ff2069 url(../images/search_btn.png) no-repeat center;cursor:pointer}
+.headBar .hotword{ padding-top:12px}
+.headBar .hotword a{ padding-right:10px; float: left; color: #666}
+.headBar .hotword a.on{ color:#ff2069}
+
+.navBar{ background-color:#333; color:#fff; z-index:1001}
+.navBar .nav-inner{ width:100%; min-width:960px; max-width:1110px; margin:0 auto; position:relative; z-index:500}
+.navBar .nav-inner li{ height: 34px; line-height: 34px; float: left; width: 90px; text-align: center;cursor: pointer}
+.navBar .nav-inner a{ color: #fff; font-size: 14px; font-weight: bold;height: 34px; line-height: 34px;display:block}
+.navBar .nav-inner li.on{ background:#ff2069}
+.navBar .nav-inner li:hover{ background:#ff2069}
+.search{cursor: pointer}
+/**/
+#main{ width:90%; max-width:1110px; min-width:960px; margin:10px auto; min-height:760px}
+#content{ padding:0; margin-right:325px}
+#sidebar{ width:300px; font-size:14px; float:right; margin-bottom:20px}
+#sidebar .panel{ font-size: 13px}
+.panel{ margin-bottom: 13px}
+#hotGoods .panel{
+  margin-bottom: 0px;
+}
+
+/**/
+.pageBar{ margin: 20px 0}
+.pageBar li{ float: left; margin-right: 2px;}
+.pageBar li a,.pageBar li span{ font-family: "SimSun"; padding: 12px 16px; background-color: #fff; font-size: 14px}
+.pageBar li.active a, .pageBar li a:hover{ background-color: #ff2069; color: #fff}
+/*.pageBar li.disabled a{background-color: #bbb; color: #fff}*/
+/*==================== 页脚 ====================*/
+.footBar{ padding: 20px 0; background-color: #34383b; color: #fff; text-align: center; margin-top: 50px}
+/* .copyright{ padding: 40px 0 20px 0; text-align: center; color: #cacaca; line-height: 25px} */
+.footBar ul{width: 100%;padding-bottom: 10px;}
+.footBar ul li{display: inline-block;padding-left: 10px;cursor: pointer}
+.footBar ul li a{color: #fff}
+.footBar ul li a:hover{color: #62b4fe}
+
+/*==================== 页脚 ====================*/
+.bt-footer{ padding-top: 10px; background-color: #34383b;}
+
+.link{ overflow: hidden; margin: 0 auto; max-width: 1200px;}
+.link .link-help { color: #bbb; font-size: 14px; display: inline-block; float: left;padding-left: 70px;}
+.link .link-help .f-sort{ height: 90px; float: left; padding: 10px 90px; border-right: 1px solid #494c4f;}
+.link .link-help .f-sort strong{ font-size:16px; color:#cacaca; line-height:25px; font-weight: 400;}
+.link .link-help .f-sort ul{ margin-top: 10px; }
+.link .link-help .f-sort li{ line-height:24px; font-size: 12px; padding: 5px 0;}
+.link .link-help .f-sort li a{ color:#cacaca; }
+.link .link-help .f-sort li a:hover{ color: #62b4fe;}
+
+.f-qrcode{ float: left; text-align:center; padding-left: 70px;}
+.f-qrcode strong{ font-size:16px; color:#cacaca; line-height:25px; font-weight: 400; margin: 10px 0 20px 0; display: block;}
+.f-qrcode-pic{ text-align:center; display:inline-block;margin:0 30px}
+.f-qrcode-pic p{ color: #cacaca; font-size: 12px; padding-bottom: 5px;}
+.f-qrcode-pic p span{height:30px;line-height:30px;width:auto;padding-left:5px}
+.f-qrcode-pic img.code-pic{ width: 70px; height: 70px;}
+.f-qrcode-pic b{ font-size:14px; }
+.f-qrcode-pic span{ width:70px; height:70px; display:inline-block; vertical-align:top;}
+.f-qrcode-pic font{ color:#cacaca; font-size: 12px;}
+
+.copyright{ padding: 10px 0 15px 0; text-align: center; color: #cacaca; line-height: 25px;}
+
+@media (max-width: 1240px){
+	.link{ overflow: hidden; margin: 0 auto; max-width: 900px}
+	.link .link-help .f-sort{ padding: 10px 30px}
+}
